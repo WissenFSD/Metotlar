@@ -18,9 +18,9 @@ using System.Globalization;
 //Console.WriteLine(RakamSil("5445İST888rakambesi11322ktas"));
 
 
-
-int alan = Alan(5, 15);
-Console.WriteLine("Alan : {0}",alan);
+// Üçgen çevre ve alan hesabı
+//int alan = Alan(5, 15);
+//Console.WriteLine("Alan : {0}",alan);
 
 
 // Diziyi ters çevirme
@@ -35,17 +35,16 @@ Console.WriteLine("Alan : {0}",alan);
 
 
 
-// 
-// girilen bir cümlenin içeriisndeki rakamları temizleyin uygulama
+// girilen bir metnin tersi ile metin birbirinin aynımı
 
+//string deger = "kapak";
+//bool esitmi = TersiEsitmi(deger);
+//Console.WriteLine(esitmi);
+//Console.ReadLine();
 
-//bir cümlenin içerisinde kaç adet kelime geçtiğini söyleyen bir metot yazınız
+// ÖDEV
 
-
-string deger = "kapak";
-bool esitmi = TersiEsitmi(deger);
-Console.WriteLine(esitmi);
-Console.ReadLine();
+// Girilen dizi içerisinde tekrarlayan elemanları bulan bir metot yazınız
 
 
 static string RakamSil(string deger)
@@ -134,9 +133,8 @@ static bool  TersiEsitmi(string deger)
     return deger == ters;
 
 }
-// Girilen sayının palindom sayı olup olmadığını kontrol eden bir metot yazınız
 
-// Girilen dizi içerisinde tekrarlayan elemanları bulan bir metot yazınız
+
 
 
 
