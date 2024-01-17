@@ -5,20 +5,35 @@ using System.Collections.Concurrent;
 using System.Globalization;
 
 //Console.WriteLine("Lütfen bir yazı yazınız");
-//string yazi = Console.ReadLine();
+////string yazi = Console.ReadLine();
 
 
-//string metotdanGelen = TersCevir(yazi);
-//Console.WriteLine(metotdanGelen);
+////string metotdanGelen = TersCevir(yazi);
+////Console.WriteLine(metotdanGelen);
 
-int sonuc =KacKelime("kaç kelime olduğunu bul");
-Console.WriteLine(sonuc);
-
-
-Console.WriteLine(RakamSil("5445İST888rakambesi11322ktas"));
+//int sonuc = KacKelime("kaç kelime olduğunu bul");
+//Console.WriteLine(sonuc);
 
 
-// 
+//Console.WriteLine(RakamSil("5445İST888rakambesi11322ktas"));
+
+
+
+int alan = Alan(5, 15);
+Console.WriteLine("Alan : {0}",alan);
+
+
+// Diziyi ters çevirme
+
+//int[] dizi = new int[] {1,2,3,4,5};
+//// 
+//int[] tersDizi = TersDizi(dizi);
+//foreach (var item in tersDizi)
+//{
+//    Console.WriteLine(item);
+//}
+
+
 
 // 
 // girilen bir cümlenin içeriisndeki rakamları temizleyin uygulama
@@ -27,7 +42,14 @@ Console.WriteLine(RakamSil("5445İST888rakambesi11322ktas"));
 //bir cümlenin içerisinde kaç adet kelime geçtiğini söyleyen bir metot yazınız
 
 
-static string RakamSil(string deger) {
+string deger = "kapak";
+bool esitmi = TersiEsitmi(deger);
+Console.WriteLine(esitmi);
+Console.ReadLine();
+
+
+static string RakamSil(string deger)
+{
 
     //asci rakam konumları bulunur kontrol edilir
     // tüm alfabe yazılır ve her bir harf o alfabe üzerinden kontrol edeilir.
@@ -67,6 +89,62 @@ static string TersCevir(string deger)
         yeniDeger += deger[i];
 
     }
-
     return yeniDeger;
 }
+static int Cevre(int birinvi_kenar, int ikinci_kenar, int ucuncu_kenar)
+{
+
+    int toplam = birinvi_kenar + ikinci_kenar + ucuncu_kenar;
+    return toplam;
+}
+static int Alan(int taban, int yukseklik)
+{
+    int sonuc = (taban * yukseklik) / 2;
+
+    return sonuc;
+}
+static bool KullaniciGiris(string username, string password)
+{
+
+    string kadi = "root";
+    string sifre = "1010";
+
+    return username == kadi && password == sifre;
+}
+static int[] TersDizi(int[] dizi)
+{
+    int[] tersDizi = new int[dizi.Length];
+    int a = 0;
+    for (int i = dizi.Length - 1; i >= 0; i--)
+    {
+        tersDizi[a] = dizi[i];
+        a++;
+  
+    }
+    return tersDizi;
+    // Bubble sorting
+}
+static bool  TersiEsitmi(string deger)
+{
+    string ters = "";
+    for (int i = deger.Length - 1; i >= 0; i--)
+    {
+        ters += deger[i];
+    }
+    return deger == ters;
+
+}
+// Girilen sayının palindom sayı olup olmadığını kontrol eden bir metot yazınız
+
+// Girilen dizi içerisinde tekrarlayan elemanları bulan bir metot yazınız
+
+
+
+
+
+// 3gen'in alanını ve çevresini hesaplayan metot
+// Kullanıcıdan kullanıcı adı ve şifre alıp dopru ise true yanlış ise false dönen metot örneği yapalım
+// int dizi alan ve bu diziyi tersten sıralayan bir metot örnepi yazınız
+
+
+
