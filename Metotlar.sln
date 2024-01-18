@@ -7,7 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metotlar", "Metotlar\Metotl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetotÖrnekler", "MetotÖrnekler\MetotÖrnekler.csproj", "{E2D2EA6B-7531-46DD-B029-97896BFCB1B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceTypeValueType", "ReferenceTypeValueType\ReferenceTypeValueType.csproj", "{FA3162F4-E8D1-4E49-B3B7-99FDA9EEE07C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReferenceTypeValueType", "ReferenceTypeValueType\ReferenceTypeValueType.csproj", "{FA3162F4-E8D1-4E49-B3B7-99FDA9EEE07C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefveOut", "RefveOut\RefveOut.csproj", "{1E61C5AE-3230-48F2-B9DA-0E1DFFF8E4AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sinirsiz_Sayisa_Parametre_AlanMetotlar", "Sinirsiz_Sayisa_Parametre_AlanMetotlar\Sinirsiz_Sayisa_Parametre_AlanMetotlar.csproj", "{75DC30E2-9AB5-4548-A254-A2B00702E279}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetotOverwrite", "MetotOverwrite\MetotOverwrite.csproj", "{C265E384-7B41-48CB-A897-CA146BFB18A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{FA3162F4-E8D1-4E49-B3B7-99FDA9EEE07C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA3162F4-E8D1-4E49-B3B7-99FDA9EEE07C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA3162F4-E8D1-4E49-B3B7-99FDA9EEE07C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E61C5AE-3230-48F2-B9DA-0E1DFFF8E4AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E61C5AE-3230-48F2-B9DA-0E1DFFF8E4AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E61C5AE-3230-48F2-B9DA-0E1DFFF8E4AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E61C5AE-3230-48F2-B9DA-0E1DFFF8E4AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75DC30E2-9AB5-4548-A254-A2B00702E279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75DC30E2-9AB5-4548-A254-A2B00702E279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75DC30E2-9AB5-4548-A254-A2B00702E279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75DC30E2-9AB5-4548-A254-A2B00702E279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C265E384-7B41-48CB-A897-CA146BFB18A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C265E384-7B41-48CB-A897-CA146BFB18A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C265E384-7B41-48CB-A897-CA146BFB18A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C265E384-7B41-48CB-A897-CA146BFB18A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

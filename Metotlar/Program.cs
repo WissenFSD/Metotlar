@@ -14,7 +14,7 @@ int sayi = rnd.Next();
 
 
 // her metodun bir imzası olması gerekmektedir.
-// erişim belirleyici
+// erişim belirleyici (public,private,protected, protected internal)
 // static yada static olmalışı
 // geri dönüş tipi
 // Adı
@@ -49,3 +49,10 @@ static string Test4(string deger)
 
     return "random değer";
 }
+
+// Metot içerisinde metot tanımı yapılamaz
+// Ancak anonim metotlar tanımlanabilir
+
+
+
+

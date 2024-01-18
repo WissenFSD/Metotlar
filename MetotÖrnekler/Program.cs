@@ -47,6 +47,7 @@ using System.Globalization;
 // Girilen dizi içerisinde tekrarlayan elemanları bulan bir metot yazınız
 
 
+
 static string RakamSil(string deger)
 {
 
@@ -132,12 +133,8 @@ static bool  TersiEsitmi(string deger)
     }
     return deger == ters;
 
+    
 }
-
-
-
-
-
 
 
 // 3gen'in alanını ve çevresini hesaplayan metot
